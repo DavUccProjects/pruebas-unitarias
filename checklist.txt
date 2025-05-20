@@ -1,0 +1,12 @@
+CHECKLIST DE CALIDAD
+
+| Criterio                                          | Cumple | Observaciones              |
+|---------------------------------------------------|--------|---------------------------|
+| Despliegue correcto en Vercel                     |   Sí   | Sin errores visibles      |
+| Carga en menos de 3 segundos                      |   Sí   | Rápido y fluido           |
+| Endpoints API funcionan (GET/POST/batch)          |   Sí   | Datos correctos recibidos |
+| Navegación fluida                                 |   Sí   | Sin bugs de navegación    |
+| Pruebas unitarias pasan en CI                     |   Sí   | Pipeline exitoso          |
+| Pruebas integración (Postman) exitosas            |   Sí   | Sin fallos en endpoints   |
+| Pruebas de carga aceptables (JMeter)              |   Sí   | Tiempos dentro del límite |
+| Documentación y código bien organizados           |   Sí   | Cumple buenas prácticas   |

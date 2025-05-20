@@ -1,0 +1,9 @@
+
+GUÍA BÁSICA PARA PRUEBAS DE CARGA EN JMETER
+
+1. Abrir Apache JMeter.
+2. Crear un Thread Group con 10 usuarios y 5 ciclos.
+3. Añadir un HTTP Request Sampler apuntando a https://<tu-app>.vercel.app/api/blocks.
+4. Añadir un Listener (Summary Report o View Results Tree).
+5. Ejecutar la prueba y verificar que el tiempo de respuesta promedio sea < 5 segundos.
+Resultado esperado: Sin errores y respuestas rápidas bajo carga simulada.

@@ -1,0 +1,15 @@
+NORMA ISO/IEC 25010
+
+Se aplicó la norma ISO/IEC 25010 para el aseguramiento de calidad del software, considerando las siguientes características principales:
+- Funcionalidad: El sistema cumple con los requerimientos definidos y realiza las funciones principales sin errores.
+- Usabilidad: La interfaz es clara, fácil de usar y accesible para el usuario.
+- Rendimiento: El tiempo de carga es menor a 3 segundos y no presenta retrasos en la interacción.
+- Mantenibilidad: El código es modular, documentado y permite modificaciones futuras fácilmente.
+
+MÉTRICAS DE CALIDAD
+
+- Tiempo de carga: < 3 segundos.
+- Errores en consola: 0 errores al ejecutar la aplicación.
+- Pruebas automatizadas: 100% de pruebas unitarias pasan en pipeline de CI.
+- Cobertura de endpoints: Todos los endpoints principales de la API respondieron correctamente en pruebas Postman.
+- Tolerancia a carga: Respuestas bajo 5 segundos con 10 usuarios concurrentes en JMeter.
